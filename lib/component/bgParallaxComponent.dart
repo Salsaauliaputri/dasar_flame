@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:dasar_flame/component/ship.dart';
 import 'package:flame/components.dart';
 import 'package:flame/parallax.dart';
 import 'package:flutter/painting.dart';
+import 'ship.dart';
 
 class Bgparallaxcomponent extends ParallaxComponent with HasGameRef {
   final _parallelImage = [
